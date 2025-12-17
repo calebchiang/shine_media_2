@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 
-const pillAnimation = {
+const pillAnimation: Variants = {
   hidden: {
     opacity: 0,
     y: 8,
@@ -14,7 +14,7 @@ const pillAnimation = {
     y: 0,
     transition: {
       duration: 0.35,
-      ease: "easeOut",
+      ease: [0.16, 1, 0.3, 1],
     },
   },
 };

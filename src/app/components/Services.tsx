@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 
 const services = [
   {
@@ -14,7 +14,8 @@ const services = [
   {
     label: "Ads",
     title: "Meta Ads That Reach Ready Buyers",
-    description: "We put your offer in front of homeowners actively looking on Facebook and Instagram.",
+    description:
+      "We put your offer in front of homeowners actively looking on Facebook and Instagram.",
     href: "#",
     imageSrc: "/facebook.jpg",
   },
@@ -27,25 +28,28 @@ const services = [
   },
 ];
 
-const container = {
+const container: Variants = {
   hidden: {},
   show: {
     transition: { staggerChildren: 0.14, delayChildren: 0.05 },
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 18 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: "easeOut" },
+    transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
   },
 };
 
 export default function Services() {
   return (
-    <section id="services" className="-mt-24 mb-32 rounded-t-[56px] bg-zinc-50 overflow-hidden">
+    <section
+      id="services"
+      className="-mt-24 mb-32 overflow-hidden rounded-t-[56px] bg-zinc-50"
+    >
       <div className="mx-auto max-w-6xl px-6 pt-24 pb-20">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold text-zinc-900">Build</p>
@@ -53,7 +57,8 @@ export default function Services() {
             Three Ways to Grow
           </h2>
           <p className="mt-4 text-lg text-zinc-600">
-Proven ways to book more clients          </p>
+            Proven ways to book more clients
+          </p>
         </div>
 
         <motion.div
