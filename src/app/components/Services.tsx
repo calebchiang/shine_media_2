@@ -45,7 +45,7 @@ const item = {
 
 export default function Services() {
   return (
-    <section className="-mt-24 mb-24 rounded-t-[56px] bg-zinc-50 overflow-hidden">
+    <section id="services" className="-mt-24 mb-32 rounded-t-[56px] bg-zinc-50 overflow-hidden">
       <div className="mx-auto max-w-6xl px-6 pt-24 pb-20">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold text-zinc-900">Build</p>
@@ -53,8 +53,7 @@ export default function Services() {
             Three Ways to Grow
           </h2>
           <p className="mt-4 text-lg text-zinc-600">
-            Sites that convert visitors into customers
-          </p>
+Proven ways to book more clients          </p>
         </div>
 
         <motion.div
