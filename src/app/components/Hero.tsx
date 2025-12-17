@@ -48,7 +48,7 @@ export default function Hero() {
   return (
     <section className="bg-[#0A74FF]">
       <motion.div
-        className="mx-auto grid max-w-6xl items-center gap-12 px-6 pt-20 pb-36 md:grid-cols-2 md:pt-28 md:pb-48"
+        className="mx-auto grid max-w-6xl items-center gap-12 px-6 pt-20 pb-36 md:grid-cols-2 md:pt-35 md:pb-55"
         variants={container}
         initial="hidden"
         animate="show"
@@ -68,8 +68,7 @@ export default function Hero() {
             variants={item}
             className="mt-4 max-w-xl text-lg leading-[1.55] tracking-[-0.005em] text-white/85"
           >
-            Shine Media offers comprehensive digital marketing services in
-            Vancouver to help <span className="font-bold">home service businesses</span> attract more customers, improve online
+            Shine Media offers digital marketing services to help <span className="font-bold">home service businesses</span> attract more customers, improve online
             visibility, and drive sustainable growth.
           </motion.p>
 

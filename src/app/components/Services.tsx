@@ -6,21 +6,21 @@ import { motion } from "framer-motion";
 const services = [
   {
     label: "Design",
-    title: "Websites built for results",
+    title: "Websites Built For Results",
     description: "A clean, fast website that turns visitors into booked jobs.",
     href: "#",
     imageSrc: "/web_design.jpg",
   },
   {
     label: "Ads",
-    title: "Meta ads that reach ready buyers",
-    description: "We put your offer in front of homeowners actively looking.",
+    title: "Meta Ads That Reach Ready Buyers",
+    description: "We put your offer in front of homeowners actively looking on Facebook and Instagram.",
     href: "#",
     imageSrc: "/facebook.jpg",
   },
   {
     label: "Calls",
-    title: "Appointment setting that closes deals",
+    title: "Appointment Setting That Closes Deals",
     description: "We handle follow-up so your calendar stays full.",
     href: "#",
     imageSrc: "/appointment.jpg",
