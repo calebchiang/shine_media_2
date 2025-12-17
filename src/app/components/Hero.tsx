@@ -23,7 +23,6 @@ export default function Hero() {
   return (
     <section className="bg-[#0A74FF]">
       <div className="mx-auto max-w-6xl px-6 pt-14 pb-36 md:pt-18 md:pb-55">
-        {/* Translucent glass pill */}
         <motion.div
           variants={pillAnimation}
           initial="hidden"
@@ -51,19 +50,19 @@ export default function Hero() {
         </motion.div>
 
         <div className="mt-8 grid items-center gap-12 md:grid-cols-2">
-          <div>
+          <div className="text-center md:text-left">
             <h1 className="font-heading text-5xl font-semibold leading-[1.0] tracking-[-0.015em] text-white md:text-6xl">
               Growth Marketing for Home Service Businesses
             </h1>
 
-            <p className="mt-4 max-w-xl text-lg leading-[1.55] tracking-[-0.005em] text-white/85">
+            <p className="mx-auto mt-4 max-w-xl text-lg leading-[1.55] tracking-[-0.005em] text-white/85 md:mx-0">
               Shine Media offers digital marketing services to help{" "}
               <span className="font-bold">home service businesses</span> attract
               more customers, improve online visibility, and drive sustainable
               growth.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-5">
+            <div className="mt-8 flex flex-wrap justify-center gap-5 md:justify-start">
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center rounded-2xl border border-black/10 bg-white px-7 py-3 text-sm font-semibold text-zinc-900

@@ -10,8 +10,8 @@ export default function Navbar() {
     <header className="bg-[#0A74FF] border-b border-white/10 relative">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-white/90">
-          <a href="#" className="transition hover:text-white">Home</a>
-          <a href="#" className="transition hover:text-white">About</a>
+          <a href="/" className="transition hover:text-white">Home</a>
+          <a href="/about" className="transition hover:text-white">About</a>
           <a href="#" className="transition hover:text-white">Services</a>
         </div>
 
