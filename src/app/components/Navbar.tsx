@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-white/90">
           <a href="/" className="transition hover:text-white">Home</a>
           <a href="/about" className="transition hover:text-white">About</a>
-          <a href="#" className="transition hover:text-white">Services</a>
+          <a href="/services" className="transition hover:text-white">Services</a>
         </div>
 
         <div className="md:hidden flex items-center">

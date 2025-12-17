@@ -15,7 +15,6 @@ export default function AboutHeader() {
         <div className="max-w-xl text-white">
           <h1 className="font-heading text-5xl font-semibold leading-[1.05] tracking-tight md:text-6xl">
             We Build
-            <br />
             Momentum
           </h1>
 
