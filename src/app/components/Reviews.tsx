@@ -52,7 +52,7 @@ const item: Variants = {
 export default function Reviews() {
   return (
     <section className="relative z-10 -mt-24 overflow-hidden rounded-t-[56px] bg-white">
-      <div className="mx-auto max-w-6xl px-6 pt-24 pb-28">
+      <div className="mx-auto max-w-6xl px-6 pt-24 pb-16">
         <div className="max-w-2xl">
           <h2 className="font-heading text-4xl font-semibold tracking-tight text-zinc-900 md:text-5xl">
             Real Results

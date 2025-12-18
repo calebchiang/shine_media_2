@@ -28,7 +28,7 @@ export default function HowWeStarted() {
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-5">
             <a
-              href="#services"
+              href="/services"
               className="inline-flex items-center justify-center rounded-2xl border border-black/10 bg-white px-7 py-3 text-sm font-semibold text-zinc-900
                          shadow-[0_4px_0_0_rgba(0,0,0,0.08)]
                          transition-all
@@ -39,7 +39,7 @@ export default function HowWeStarted() {
             </a>
 
             <a
-              href="#learn"
+              href="/contact"
               className="group inline-flex items-center gap-2 text-sm font-semibold text-black
                          transition-transform duration-200 ease-out hover:scale-125"
             >

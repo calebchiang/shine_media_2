@@ -50,7 +50,7 @@ export default function Services() {
       id="services"
       className="-mt-24 mb-32 overflow-hidden rounded-t-[56px] bg-zinc-50"
     >
-      <div className="mx-auto max-w-6xl px-6 pt-24 pb-20">
+      <div className="mx-auto max-w-6xl px-6 pt-24 pb-34">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold text-zinc-900">Build</p>
           <h2 className="mt-3 font-heading text-4xl font-semibold tracking-tight text-zinc-900 md:text-5xl">

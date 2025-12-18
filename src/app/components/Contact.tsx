@@ -15,7 +15,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="-mt-24 overflow-hidden rounded-t-[56px] bg-zinc-100">
+    <section id="contact" className="-mt-52 overflow-hidden rounded-t-[56px] bg-zinc-100">
       <div className="mx-auto max-w-6xl px-6 pt-24 pb-28">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
           {/* Left */}

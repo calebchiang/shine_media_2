@@ -40,7 +40,6 @@ export default function FAQ() {
   return (
     <section className="bg-white mb-32 md:mb-40">
       <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-start">
-        {/* Left */}
         <div>
           <h2 className="font-heading text-5xl font-semibold tracking-tight text-zinc-900 md:text-6xl">
             Questions
@@ -51,7 +50,7 @@ export default function FAQ() {
           </p>
 
           <a
-            href="#"
+            href="/contact"
             className="mt-10 inline-flex items-center justify-center rounded-2xl border border-zinc-200 bg-white px-7 py-3 text-sm font-semibold text-zinc-900
                        shadow-[0_4px_0_0_rgba(0,0,0,0.08)]
                        transition-all
@@ -62,7 +61,6 @@ export default function FAQ() {
           </a>
         </div>
 
-        {/* Right */}
         <div className="divide-y divide-zinc-200 border-t border-zinc-200">
           {items.map((f, idx) => {
             const isOpen = openIndex === idx;

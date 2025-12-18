@@ -24,22 +24,10 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Middle */}
         <div className="md:justify-self-center">
-          <p className="text-lg font-semibold text-white">Contact</p>
+          <p className="text-lg font-semibold text-white">Social</p>
 
           <div className="mt-6 space-y-3 text-base text-white/85">
-            <a
-              href="mailto:info@shinemediacan.com"
-              className="block hover:text-white"
-            >
-              info@shinemediacan.com
-            </a>
-
-            <a href="tel:+17788231022" className="block hover:text-white">
-              (778) 823-1022
-            </a>
-
             <a href="#" className="inline-flex items-center hover:text-white">
               <span className="text-2xl font-semibold">f</span>
             </a>
@@ -49,13 +37,13 @@ export default function Footer() {
         {/* Right */}
         <div className="md:justify-self-end">
           <nav className="flex flex-col gap-4 text-right">
-            <a href="#services" className="text-sm font-semibold text-white/85 hover:text-white">
+            <a href="/services" className="text-sm font-semibold text-white/85 hover:text-white">
               Services
             </a>
-            <a href="#about" className="text-sm font-semibold text-white/85 hover:text-white">
+            <a href="/about" className="text-sm font-semibold text-white/85 hover:text-white">
               About
             </a>
-            <a href="#contact" className="text-sm font-semibold text-white/85 hover:text-white">
+            <a href="/contact" className="text-sm font-semibold text-white/85 hover:text-white">
               Contact
             </a>
           </nav>

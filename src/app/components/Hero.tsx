@@ -64,7 +64,7 @@ export default function Hero() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-5 md:justify-start">
               <a
-                href="#contact"
+                href="/contact"
                 className="inline-flex items-center justify-center rounded-2xl border border-black/10 bg-white px-7 py-3 text-sm font-semibold text-zinc-900
                            shadow-[0_4px_0_0_rgba(0,0,0,0.08)]
                            transition-all

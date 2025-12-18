@@ -4,18 +4,18 @@ const cards = [
   {
     title: "More qualified\nleads",
     description: "Your phone rings with people ready to hire you",
-    href: "#",
+    href: "/contact",
   },
   {
     title: "Booked\nappointments",
     description: "Fewer no-shows and more jobs in your calendar",
-    href: "#",
+    href: "/contact",
   },
 ];
 
 export default function WorkWithUs() {
   return (
-    <section className="relative z-0 -mt-32 mb-12 rounded-t-[48px] bg-zinc-900">
+    <section className="relative z-0 -mt-44 mb-12 rounded-t-[48px] bg-zinc-900">
       <div className="mx-auto grid max-w-6xl gap-6 px-6 py-24 lg:grid-cols-2 lg:items-stretch">
         <div className="relative h-[520px] overflow-hidden rounded-3xl lg:h-full">
           <Image
