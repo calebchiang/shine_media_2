@@ -15,7 +15,7 @@ const cards = [
 
 export default function WorkWithUs() {
   return (
-    <section className="relative z-0 -mt-44 mb-12 rounded-t-[48px] bg-zinc-900">
+    <section className="relative z-0 -mt-44 mb-12 overflow-x-hidden rounded-t-[48px] bg-zinc-900">
       <div className="mx-auto grid max-w-6xl gap-6 px-6 py-24 lg:grid-cols-2 lg:items-stretch">
         <div className="relative h-[520px] overflow-hidden rounded-3xl lg:h-full">
           <Image
@@ -45,7 +45,7 @@ export default function WorkWithUs() {
           {cards.map((c) => (
             <div
               key={c.title}
-              className="flex flex-1 flex-col items-center justify-center rounded-3xl border border-white/10 bg-zinc-800 px-10 py-14 text-center"
+              className="flex flex-1 flex-col items-center justify-center overflow-hidden rounded-3xl border border-white/10 bg-zinc-800 px-10 py-14 text-center"
             >
               <div className="mb-8 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10">
                 <span className="h-4 w-4 rounded-sm bg-white" />
@@ -61,9 +61,7 @@ export default function WorkWithUs() {
 
               <a
                 href={c.href}
-                className="group mt-10 inline-flex items-center gap-2 text-sm font-semibold text-white
-                           transition-transform duration-200 ease-out
-                           hover:scale-125"
+                className="group mt-10 inline-flex items-center gap-2 text-sm font-semibold text-white transition-transform duration-200 ease-out hover:scale-105 active:scale-105"
               >
                 <span>Learn</span>
                 <span
